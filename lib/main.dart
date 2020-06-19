@@ -50,7 +50,11 @@ class BusinessCard extends StatelessWidget {
                 child: Text('Phone Number'),
               ),
               SizedBox(height: 30),
-              Container(width: 250.0, height: 50.0, child: Text('Email')),
+              Container(
+                  width: 250.0,
+                  height: 50.0,
+                  color: Colors.white,
+                  child: Text('Email')),
             ],
           ),
         ),
