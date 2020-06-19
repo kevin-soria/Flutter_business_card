@@ -1,19 +1,22 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.redAccent,
-        body: Container(),
-      ),
-    ),
-  );
+  runApp(BusinessCard());
 }
 
-class MyCard extends StatelessWidget {
+class BusinessCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.teal,
+        body: SafeArea(
+          child: Container(
+            color: Colors.white,
+            child: Text('Hello World'),
+          ),
+        ),
+      ),
+    );
   }
 }
