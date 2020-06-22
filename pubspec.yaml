@@ -56,6 +56,8 @@ flutter:
           fonts:
             - asset: fonts/Days_One/DaysOne-Regular.ttf
 
+#Keep working here fonts are not working until this erased !
+
 
   #   - family: Trajan Pro
   #     fonts:
