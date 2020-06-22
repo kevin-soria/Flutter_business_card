@@ -16,31 +16,39 @@ class BusinessCard extends StatelessWidget {
         body: SafeArea(
           child: Column(
             children: <Widget>[
-              SizedBox(height: 100),
-              Container(
-                margin: EdgeInsets.symmetric(horizontal: 150.0),
-                height: 100.0,
-                width: 100.0,
-                color: Colors.white,
-                child: Text('Picture'),
+              SizedBox(height: 250),
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage:
+                    AssetImage('images/apple-touch-icon-72x72.png'),
               ),
-              Spacer(),
-              Container(
-                width: 100.0,
-                height: 100.0,
-                child: Text('Name'),
-              ),
+
+//              Container(
+//                margin: EdgeInsets.symmetric(horizontal: 150.0),
+//                height: 100.0,
+//                width: 100.0,
+//                color: Colors.white,
+//                child: Text('Picture'),
+//              ),
               SizedBox(height: 20.0),
+              Text('Customer Name'),
               Container(
                 width: 100.0,
-                height: 100.0,
+                height: 50.0,
+                child: Text(:
+                'Name'),
+              ),
+              Container(
+                width: 100.0,
+                height: 50.0,
                 child: Text('Occupation'),
               ),
               SizedBox(height: 30),
-              Container(
-                width: 250.0,
+              Divider(
+                color: Colors.white,
                 height: 20.0,
-                child: Text('line'),
+                indent: 30,
+                endIndent: 50,
               ),
               SizedBox(height: 30),
               Container(
