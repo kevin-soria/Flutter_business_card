@@ -35,39 +35,39 @@ class BusinessCard extends StatelessWidget {
                 'Customer Name',
                 style: TextStyle(
                   fontSize: 20,
+                  fontFamily: 'Days One',
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
               ),
-//              Container(
-//                width: 100.0,
-//                height: 50.0,
-//                child: Text('Name'),
-//              ),
-              Container(
-                width: 100.0,
-                height: 50.0,
-                child: Text('Occupation'),
+//
+              Text(
+                'SneakerDen Login/Sign Up',
+                style: TextStyle(
+                  fontSize: 15,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
               SizedBox(height: 30),
               Divider(
                 color: Colors.white,
                 height: 20.0,
-                indent: 30,
-                endIndent: 50,
+                indent: 70,
+                endIndent: 70,
               ),
               SizedBox(height: 30),
               Container(
                 width: 250.0,
                 height: 50.0,
-                color: Colors.white,
+                color: Colors.black12,
                 child: Text('Phone Number'),
               ),
               SizedBox(height: 30),
               Container(
                   width: 250.0,
                   height: 50.0,
-                  color: Colors.white,
+                  color: Colors.black12,
                   child: Text('Email')),
             ],
           ),
