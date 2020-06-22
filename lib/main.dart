@@ -31,7 +31,14 @@ class BusinessCard extends StatelessWidget {
 //                child: Text('Picture'),
 //              ),
               SizedBox(height: 20.0),
-              Text('Customer Name'),
+              Text(
+                'Customer Name',
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
 //              Container(
 //                width: 100.0,
 //                height: 50.0,
