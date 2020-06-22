@@ -12,7 +12,7 @@ class BusinessCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.blueGrey,
         body: SafeArea(
           child: Column(
             children: <Widget>[
@@ -32,12 +32,11 @@ class BusinessCard extends StatelessWidget {
 //              ),
               SizedBox(height: 20.0),
               Text('Customer Name'),
-              Container(
-                width: 100.0,
-                height: 50.0,
-                child: Text(:
-                'Name'),
-              ),
+//              Container(
+//                width: 100.0,
+//                height: 50.0,
+//                child: Text('Name'),
+//              ),
               Container(
                 width: 100.0,
                 height: 50.0,
