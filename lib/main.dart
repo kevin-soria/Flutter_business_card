@@ -49,12 +49,38 @@ class BusinessCard extends StatelessWidget {
               ),
               SizedBox(height: 30),
               Container(
-                  width: 250.0,
+                  margin:
+                      EdgeInsets.symmetric(vertical: 10.0, horizontal: 50.0),
+                  padding: EdgeInsets.symmetric(horizontal: 5.0),
                   height: 50.0,
                   color: Colors.black12,
                   child: Row(
                     children: <Widget>[
                       Icon(Icons.phone, size: 30.0, color: Colors.white),
+                      SizedBox(
+                        width: 15.0,
+                      ),
+                      Text(
+                        'Phone Number',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontFamily: 'Days_One',
+                        ),
+                      ),
+                    ],
+                  )),
+              Container(
+                  margin:
+                      EdgeInsets.symmetric(vertical: 10.0, horizontal: 50.0),
+                  padding: EdgeInsets.symmetric(horizontal: 5.0),
+                  height: 50.0,
+                  color: Colors.black12,
+                  child: Row(
+                    children: <Widget>[
+                      Icon(Icons.phone, size: 30.0, color: Colors.white),
+                      SizedBox(
+                        width: 15.0,
+                      ),
                       Text(
                         'Email',
                         style: TextStyle(
@@ -64,12 +90,6 @@ class BusinessCard extends StatelessWidget {
                       ),
                     ],
                   )),
-              SizedBox(height: 30),
-              Container(
-                  width: 250.0,
-                  height: 50.0,
-                  color: Colors.black12,
-                  child: Text('Email')),
             ],
           ),
         ),
