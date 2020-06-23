@@ -15,8 +15,8 @@ class BusinessCard extends StatelessWidget {
         backgroundColor: Colors.blueGrey,
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              SizedBox(height: 250),
               CircleAvatar(
                 radius: 50.0,
                 backgroundImage:
@@ -40,36 +40,28 @@ class BusinessCard extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              SizedBox(height: 30),
-              Divider(
-                color: Colors.white,
-                height: 20.0,
-                indent: 70,
-                endIndent: 70,
+              SizedBox(
+                height: 20,
+                width: 200.0,
+                child: Divider(
+                  color: Colors.white,
+                ),
               ),
-              SizedBox(height: 30),
               Card(
-                  margin:
-                      EdgeInsets.symmetric(vertical: 15.0, horizontal: 50.0),
-                  color: Colors.grey[400],
-                  child: Padding(
-                    padding: const EdgeInsets.all(10.0),
-                    child: Row(
-                      children: <Widget>[
-                        Icon(Icons.phone, size: 30.0, color: Colors.orange),
-                        SizedBox(
-                          width: 15.0,
-                        ),
-                        Text(
-                          'Phone Number',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontFamily: 'Days_One',
-                          ),
-                        ),
-                      ],
+                margin: EdgeInsets.symmetric(vertical: 15.0, horizontal: 50.0),
+                color: Colors.grey[400],
+                child: ListTile(
+                  leading: Icon(Icons.phone, color: Colors.orange),
+                  title: Text(
+                    'Phone Number',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 18.0,
+                      fontFamily: 'Days_One',
                     ),
-                  )),
+                  ),
+                ),
+              ),
               Card(
                   margin:
                       EdgeInsets.symmetric(vertical: 10.0, horizontal: 50.0),
@@ -81,6 +73,7 @@ class BusinessCard extends StatelessWidget {
                       style: TextStyle(
                         color: Colors.white,
                         fontFamily: 'Days_One',
+                        fontSize: 18.0,
                       ),
                     ),
                   )),
