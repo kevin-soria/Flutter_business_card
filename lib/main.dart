@@ -84,19 +84,3 @@ class BusinessCard extends StatelessWidget {
     );
   }
 }
-//Row(
-//children: <Widget>[
-//Icon(Icons.mail_outline,
-//size: 30.0, color: Colors.orange),
-//SizedBox(
-//width: 15.0,
-//),
-//Text(
-//'Email',
-//style: TextStyle(
-//color: Colors.white,
-//fontFamily: 'Days_One',
-//),
-//),
-//],
-//)
