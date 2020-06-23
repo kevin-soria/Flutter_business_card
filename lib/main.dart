@@ -74,23 +74,14 @@ class BusinessCard extends StatelessWidget {
                   margin:
                       EdgeInsets.symmetric(vertical: 10.0, horizontal: 50.0),
                   color: Colors.grey[400],
-                  child: Padding(
-                    padding: EdgeInsets.all(15.0),
-                    child: Row(
-                      children: <Widget>[
-                        Icon(Icons.mail_outline,
-                            size: 30.0, color: Colors.orange),
-                        SizedBox(
-                          width: 15.0,
-                        ),
-                        Text(
-                          'Email',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontFamily: 'Days_One',
-                          ),
-                        ),
-                      ],
+                  child: ListTile(
+                    leading: Icon(Icons.mail_outline, color: Colors.orange),
+                    title: Text(
+                      'Email',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontFamily: 'Days_One',
+                      ),
                     ),
                   )),
             ],
@@ -100,3 +91,19 @@ class BusinessCard extends StatelessWidget {
     );
   }
 }
+//Row(
+//children: <Widget>[
+//Icon(Icons.mail_outline,
+//size: 30.0, color: Colors.orange),
+//SizedBox(
+//width: 15.0,
+//),
+//Text(
+//'Email',
+//style: TextStyle(
+//color: Colors.white,
+//fontFamily: 'Days_One',
+//),
+//),
+//],
+//)
