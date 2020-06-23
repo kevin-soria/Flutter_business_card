@@ -32,7 +32,6 @@ class BusinessCard extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-//
               Text(
                 'SneakerDen Login/Sign Up',
                 style: TextStyle(
@@ -50,11 +49,21 @@ class BusinessCard extends StatelessWidget {
               ),
               SizedBox(height: 30),
               Container(
-                width: 250.0,
-                height: 50.0,
-                color: Colors.black12,
-                child: Text('Phone Number'),
-              ),
+                  width: 250.0,
+                  height: 50.0,
+                  color: Colors.black12,
+                  child: Row(
+                    children: <Widget>[
+                      Icon(Icons.phone, size: 30.0, color: Colors.white),
+                      Text(
+                        'Email',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontFamily: 'Days_One',
+                        ),
+                      ),
+                    ],
+                  )),
               SizedBox(height: 30),
               Container(
                   width: 250.0,
