@@ -22,14 +22,6 @@ class BusinessCard extends StatelessWidget {
                 backgroundImage:
                     AssetImage('images/apple-touch-icon-72x72.png'),
               ),
-
-//              Container(
-//                margin: EdgeInsets.symmetric(horizontal: 150.0),
-//                height: 100.0,
-//                width: 100.0,
-//                color: Colors.white,
-//                child: Text('Picture'),
-//              ),
               SizedBox(height: 20.0),
               Text(
                 'Customer Name',
