@@ -56,7 +56,7 @@ class BusinessCard extends StatelessWidget {
                   color: Colors.black12,
                   child: Row(
                     children: <Widget>[
-                      Icon(Icons.phone, size: 30.0, color: Colors.white),
+                      Icon(Icons.phone, size: 30.0, color: Colors.orange),
                       SizedBox(
                         width: 15.0,
                       ),
@@ -77,7 +77,8 @@ class BusinessCard extends StatelessWidget {
                   color: Colors.black12,
                   child: Row(
                     children: <Widget>[
-                      Icon(Icons.phone, size: 30.0, color: Colors.white),
+                      Icon(Icons.mail_outline,
+                          size: 30.0, color: Colors.orange),
                       SizedBox(
                         width: 15.0,
                       ),
