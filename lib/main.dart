@@ -34,8 +34,8 @@ class BusinessCard extends StatelessWidget {
               Text(
                 'Customer Name',
                 style: TextStyle(
+                  fontFamily: 'Days_One',
                   fontSize: 20,
-                  fontFamily: 'Days One',
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
@@ -45,7 +45,7 @@ class BusinessCard extends StatelessWidget {
                 'SneakerDen Login/Sign Up',
                 style: TextStyle(
                   fontSize: 15,
-                  color: Colors.white,
+                  color: Colors.grey[400],
                   fontWeight: FontWeight.bold,
                 ),
               ),
